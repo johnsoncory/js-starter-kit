@@ -10,7 +10,7 @@
     "lint": "esw webpack.config.* src buildScripts --color",
     "lint:watch": "npm run lint -- --watch",
     "security-check": "nsp check",
-    "test": "mocha --reported progress buildScripts/testSetup.js \"src/**/*.test.js\"",
+    "test": "mocha --reporter progress buildScripts/testSetup.js \"src/**/*.test.js\"",
     "test:watch": "npm run test -- --watch"
   },
   "repository": {
