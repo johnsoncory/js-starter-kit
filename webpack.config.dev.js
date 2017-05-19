@@ -2,7 +2,7 @@ import path from 'path';
 
 export default {
   debug: true,
-  devtool: 'inline-source-map',
+  devtool: 'inline-source-map', //research if this is the best option for me
   noInfo: false,
   entry: [
     //add hot reloading middleware here??
