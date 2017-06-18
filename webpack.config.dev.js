@@ -3,7 +3,7 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 
 export default {
   debug: true,
-  devtool: 'inline-source-map', //research if this is the best option for me
+  devtool: 'inline-source-map',
   noInfo: false,
   entry: [
     //add hot reloading middleware here??

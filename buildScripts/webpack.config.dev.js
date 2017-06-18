@@ -2,10 +2,9 @@ import path from 'path';
 
 export default {
   debug: true,
-  devtool: 'inline-source-map', //research if this is the best option for me
+  devtool: 'inline-source-map',
   noInfo: false,
   entry: [
-    //add hot reloading middleware here??
     path.resolve(__dirname, 'src/index')
   ],
   target: 'web',
